@@ -1,14 +1,14 @@
 import kivy
 from kivy.app import App
-from kivy.uix.label import Label
+from kivy.uix.boxlayout import BoxLayout
 
-kivy.require("2.0.0")
+kivy.require("1.9.0")
 
 
 class Neural_Random(App):
 
     def build(self):
-        return Label(text="Neural Random")
+        return BoxLayout()
 
 
 neuralRandom = Neural_Random()
