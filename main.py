@@ -18,7 +18,8 @@ class MyRoot(BoxLayout):
 class Neural_Random(App):
 
     def build(self):
-        return BoxLayout()
+        return MyRoot()
+
 
 
 neuralRandom = Neural_Random()
